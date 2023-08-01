@@ -1,0 +1,421 @@
+body {
+  font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#navbarNavDropdown {
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.navbar a,
+#navbarNavDropdown ul li a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0;
+  white-space: nowra;
+  text-transform: uppercase;
+}
+a:hover {
+  color: red;
+}
+
+li
+{
+  list-style-type: none;
+}
+.header {
+  overflow: auto;
+}
+.header .navbar-brand {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #fff;
+}
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/intro-bg.jpg);
+  height: 100vh;
+  background-size: 100% 100%;
+  background-attachment : fixed;
+}
+.header .content {
+  margin-top: 110px;
+  overflow: hidden;
+}
+
+.header .content h1 {
+  font: 600;
+  font-size: 72px;
+  line-height: 86px;
+}
+
+
+.about {
+  background-color: #f5f5f5;
+}
+
+.about .about_box {
+  box-shadow: 0.5 px 0.5px 7px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1e1e1e;
+}
+span {
+  color: #4e4e4e;
+}
+
+.hamda
+{
+    background-color: #CDE1F8;
+}
+
+.overlay
+{
+    background-color: #0078FF;
+}
+
+
+/*--------------------- End The About--------------------------------------*/
+
+
+
+.title_2
+{
+    position: relative;
+}
+
+.title_2::before
+{
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
+
+.services .line
+{
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.services .line::before
+{
+  content: "";
+  background-color: #0078FF;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  width: 4%;
+  height: 5px;  
+}
+
+
+.services .card-box
+{
+  border-radius: 10px;
+}
+
+.services .card-box .test
+{
+  transition: 500ms;
+  border: 10px solid #0078FF !important;
+}
+
+.services .card-box:hover .test
+{
+  background-color: #0078FF;
+  border-color: #CDE1F8 !important;
+    color: white;
+}
+
+.services .card-box h2
+{
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: #1e1e1e;
+}
+
+
+.services .card-box p
+{
+  line-height: 24px;
+  color: #4e4e4e;
+}
+
+/*--------------------- End The Services--------------------------------------*/
+
+
+
+.counter
+{
+  background: linear-gradient(rgba(0, 132, 255, 0.6), rgba(0,132,255,0.6)),
+  url(../images/counters-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 75h;
+}
+
+.counter .test{
+  border: 5px solid #fff !important;
+}
+
+
+.portflio .test
+{
+  left: 85%;
+  bottom: 10%;
+}
+
+a:hover
+{
+  color: #0078FF;
+}
+
+.portflio .card-box 
+{
+  overflow: hidden;
+}
+
+.portflio .card-box img
+{
+  transition: 1s;
+}
+.portflio .card-box:hover img{
+  transform: scale(1.1);
+}
+
+/*--------------------- End The portfilo--------------------------------------*/
+
+.testimonial
+{
+  background: linear-gradient(rgba(0, 132, 255, 0.6), rgba(0,132,255,0.6)),
+  url(../images/overlay-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 75vh;
+}
+
+.testimonial .test h2
+{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 34px;
+  color: #fff;
+}
+
+.testimonial .test p
+{
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.testimonial .test .shape
+{
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.testimonial .test .shape2
+{
+  width: 10px;
+  height: 10px;
+  background-color: #8DBEF2;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.title_2
+{
+    position: relative;
+}
+
+.title_2::before
+{
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
+
+.portflio .line
+{
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.portflio .line::before
+{
+  content: "";
+  background-color: #0078FF;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  width: 4%;
+  height: 5px;  
+}
+
+
+
+/*--------------------- End The testimonial--------------------------------------*/
+
+
+.blog .card_content h5
+{
+  position: absolute;
+  left: 38%;
+  top: 48%;
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.blog .card_content h3
+{
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #1e1e1e;
+  transition: 1s;
+}
+
+.blog .card_content h3:hover
+{
+  color: #0078FF;
+}
+
+.blog .card_content p
+{
+  line-height: 24px;
+  color: #4e4e4e;
+}
+
+.blog .card_footer img
+{
+  width: 15%;
+}
+
+
+.title_2
+{
+    position: relative;
+}
+
+.title_2::before
+{
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
+
+.blog .line
+{
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.blog .line::before
+{
+  content: "";
+  background-color: #0078FF;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  width: 4%;
+  height: 5px;  
+}
+/*--------------------- End The blog--------------------------------------*/
+
+
+.contact 
+{
+  background: linear-gradient(rgba(0, 132, 255, 0.6), rgba(0,132,255,0.6)),
+  url(../images/overlay-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contact .title_2
+{
+  margin-bottom: 30px;
+
+}
+
+
+.socials ul{
+  margin-left: -30px;
+}
+
+.socials ul li
+{
+  margin-right: 10px;
+}
+
+.socials ul li span
+{
+  transition: 1s;
+}
+
+.socials ul li:hover span
+{
+  background-color: #0078FF;
+  color: #fff;
+  border-color: #8DBEF2 !important;
+}
+
+
+/*--------------------- End The text animation--------------------------------------*/
+
+.animate-flicker {
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.animate-flicker span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: animate-flicker 15s linear infinite;
+}
+
+@keyframes animate-flicker {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
+
+/*--------------------- End The scrool --------------------------------------*/
+
+.scrool
+{
+  position: fixed;
+  top: 50%;
+  left: 98%;
+  width: 20px;
+  height: 30px;
+  text-align: center;
+}
